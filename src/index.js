@@ -369,7 +369,7 @@ bot.command('subscribe', async ctx => {
 					// Додаємо новину в Firestore
 					await db.collection('sentNews').add({ title: item.title })
 				} else {
-					logger.warn('Skipping news item with undefined title')
+					logger.warn('Skipping news item with undefined title...')
 				}
 			} catch (error) {
 				logger.error(`Error processing or sending news: ${item.title}`, error)
