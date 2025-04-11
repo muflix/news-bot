@@ -1,0 +1,73 @@
+config/serviceAccount.json
+tsconfig.json
+src/index.ts
+src/oldTranslateQueue.js
+
+# Змінні середовища
+.env
+
+# Операційні системи
+.DS_Store          # macOS
+Thumbs.db          # Windows
+
+# Логи
+*.log
+
+# Тести
+/coverage/
+
+# Файли компіляції
+*.class
+*.o
+*.out
+*.exe
+*.dll
+*.obj
+*.pdb
+*.so
+
+# Node.js
+node_modules/
+
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Ruby
+*.gem
+*.rbc
+.bundle/
+log/
+tmp/
+
+# Java
+*.jar
+*.war
+*.ear
+
+# IntelliJ IDEA
+.idea/
+
+# Visual Studio
+.vs/
+.vscode/
+
+
+# Резервні файли
+*~
+*.swp
+
+# Документи
+*.pdf
+*.docx
+*.xlsx
+
+# Бази даних
+*.sql
+*.sqlite
+
+# Інші специфічні файли
+*.iml
+*.bak
